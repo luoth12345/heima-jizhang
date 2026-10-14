@@ -1,6 +1,7 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "heima-jizhang",
+  "productName": "黑马记账",
+  "mainBinaryName": "heima-jizhang",
   "version": "0.1.0",
   "identifier": "com.heima.jizhang",
   "build": {
@@ -13,8 +14,11 @@
     "windows": [
       {
         "title": "黑马记账",
-        "width": 800,
-        "height": 600
+        "width": 1150,
+        "height": 750,
+        "minWidth": 980,
+        "minHeight": 640,
+        "center": true
       }
     ],
     "security": {
